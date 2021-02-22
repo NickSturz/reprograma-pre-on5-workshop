@@ -1,0 +1,137 @@
+/* GERAL */
+* 
+{
+ box-sizing: border-box;
+}
+
+body{
+    margin: 0;     
+}
+
+
+/* LAYOUT */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.banner{
+ color:whitesmoke;
+ background-image: url(../img/banner2.jpg);
+ background-size: cover;
+ height: 650px;
+ display: flex;
+ justify-content: left;
+ align-items: center;
+ text-shadow: 1px 1px 1px black;
+ font-family: Knewave, cursive ;
+ font-size: x-large;
+
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco{
+    color: rgb(110, 151, 218);
+    background-color: white;
+}
+
+.btn-roxo {
+    color: rgb(110, 151, 218);
+    border: 1px solid rgb(110, 151, 218);
+}
+
+/* SEÇÃO SOBRE */
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sobre__titulo {
+    font-size: 3rem;
+    color: rgb(40, 6, 128);
+    font-family: 'Indie Flower', cursive;
+}
+
+.sobre-descricao, .sobre-habilidades {
+    width: 60%;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sobre-descricao__destaque, .sobre-habilidades__titulo {
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sobre-habilidades {
+    margin-left: 10rem;
+    justify-content: space-between;
+}
+
+.sobre-habilidades__lista {
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+/*redes sociais*/
+.redes-sociais_link {
+    display: inline-block;
+    justify-content: space-around;
+    width: 15%;
+    background-color: rgb(110, 151, 218);
+    border-radius: 5%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    padding: 1rem 0;
+    margin: 2rem 1rem;
+    text-align: center;
+    color:black;
+}
+
+.redes-sociais{
+    padding-bottom: 2rem;
+}
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: .5rem;
+}
+
+div.margem {
+    background: black;
+    color:black;
+    padding: 10px;
+}
+
+.endpage{
+    background: black;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
